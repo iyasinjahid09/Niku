@@ -90,7 +90,7 @@ def save_keys():
 def generate_key(length=10):
     characters = string.ascii_letters + string.digits
     key = ''.join(random.choice(characters) for _ in range(length))
-    return f"CYBER-RAID-{key.upper()}"  # Ensure key is in uppercase
+    return f"KIND-DBOS-{key.upper()}"  # Ensure key is in uppercase
 
 def add_time_to_current_date(hours=0):
     return (datetime.datetime.now() + datetime.timedelta(hours=hours)).strftime('%Y-%m-%d %H:%M:%S')
